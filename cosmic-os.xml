@@ -10,6 +10,7 @@
   <project path="build" name="platform_build" groups="pdk,tradefed" remote="cosmic-os" >
     <copyfile src="core/root.mk" dest="Makefile" remote="cosmic-os" />
   </project>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy"  remote="cosmic-os" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="cosmic-os" />
   <project path="external/google" name="platform_external_google" groups="pdk-fs" remote="cosmic-os" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="cosmic-os" />
