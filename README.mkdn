@@ -3,6 +3,19 @@
 Cosmic-OS
 =========
 
+Credits 
+-------
+ * [**JDCTeam (Base)**](https://github.com/AOSP-JF-MM)
+ * [**DirtyUnicorns**](https://github.com/DirtyUnicorns) 
+ * [**AOSiP**](https://github.com/AOSIP)
+ * [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
+ * [**SlimRoms**](https://github.com/SlimRoms)
+ * [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
+ * [**Nitrogen Project**](https://github.com/nitrogen-project)
+ * [**Pure Nexus**](https://github.com/PureNexusProject)
+ * [**Resurrection Remix**](https://github.com/ResurrectionRemix)
+ * [**OmniROM**](https://github.com/omnirom/)
+
 Getting Started 
 --------------- 
 To get started with the Cosmic-OS sources, you'll need to get 
