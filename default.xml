@@ -546,7 +546,6 @@
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" /> 
   <project path="packages/apps/HexCamera" name="HexagonRom/packages_apps_Camera2" remote="github" revision="hex-7.1" />
   <project path="packages/apps/PixelLauncher" name="amirzaidi/Launcher3" remote="github" revision="o" />
-  <project path="vendor/cos" name="namdeptrai2003/platform_vendor_cos" remote="github" revision="n-mr2" /> 
 	
   <!-- Cosmic-OS additions -->
   <include name="cosmic-os.xml"/>
