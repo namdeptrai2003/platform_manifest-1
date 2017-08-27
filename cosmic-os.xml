@@ -164,7 +164,6 @@
   <project name="platform_system_sepolicy" path="system/sepolicy" remote="cosmic-os" />
   <project name="platform_system_vold" path="system/vold" remote="cosmic-os" />
   <project name="platform_system_qcom" path="vendor/qcom/opensource/softap" remote="cosmic-os" />
-  <project name="platform_vendor_cos" path="vendor/cos" remote="cosmic-os" >
   <copyfile dest="build-cos.sh" src="build-cos.sh"/>
   </project>
   <project name="platform_vendor_ota" path="vendor/ota" remote="cosmic-os" />
