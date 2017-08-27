@@ -106,7 +106,6 @@
   <project groups="pdk" name="platform/external/ceres-solver" path="external/ceres-solver"/>
   <project groups="pdk" name="platform/external/chromium-libpac" path="external/chromium-libpac"/>
   <project groups="pdk" name="platform/external/chromium-trace" path="external/chromium-trace"/>
-  <project groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview"/>
   <project groups="pdk" name="platform/external/clang" path="external/clang"/>
   <project groups="pdk" name="platform/external/cmockery" path="external/cmockery"/>
   <project groups="pdk" name="platform/external/compiler-rt" path="external/compiler-rt"/>
@@ -542,6 +541,16 @@
   <project name="platform/vendor/qcom/titanium_32" path="device/qcom/msm8953_32" />
   <project name="platform/vendor/qcom/titanium_64" path="device/qcom/msm8953_64" />
   <project name="toolchain/binutils" />
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kyleproxx" name="namdeptrai2003/android_device_samsung_kyleproxx" remote="github" revision="tipsy" />
+  <project path="kernel/samsung/kyleproxx" name="ishantvivek/android_kernel_samsung_kyleproxx" remote="github" revision="cm-14.1-zram" />
+  <project path="vendor/samsung/kyleproxx" name="ishantvivek/android_vendor_samsung_kyleproxx" remote="github" revision="7.0" />
+  <project path="external/chromium-webview" name="ishantvivek/android_external_chromium-webview" clone-depth="1" remote="github" revision="7.0" />
+  <!-- STUFF BUILD -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" /> 
+  <project path="packages/apps/HexCamera" name="HexagonRom/packages_apps_Camera2" remote="github" revision="hex-7.1" />
+  <project path="packages/apps/PixelLauncher" name="amirzaidi/Launcher3" remote="github" revision="o" />
 
   <!-- Cosmic-OS additions -->
   <include name="cosmic-os.xml"/>
