@@ -8,6 +8,11 @@
   <remote  name="cosmic-os"
            fetch="https://github.com/Cosmic-OS"
            revision="refs/heads/n-mr2" />
+	
+  <remote  name="unknown"
+           fetch="https://github.com/namdeptrai2003"
+           revision="refs/heads/n-mr2" />
+
 
   <remote  name="omni"
            fetch="https://github.com/omnirom"
